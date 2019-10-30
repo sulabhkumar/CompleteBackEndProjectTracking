@@ -42,10 +42,10 @@ public class update {
 			System.out.println("Incoming Data"+ incomingData);
 			JSONObject projectData = new JSONObject(incomingData); 
 			pk = projectData.optInt("Project_id", 0);
-			projectName = projectData.optString("projectName", "projectName");
-			description = projectData.optString("description", "description");
-			technology = projectData.optString("technology", "technology");
-			team = projectData.optString("team", "team");
+			projectName = projectData.optString("projectName", " ");
+			description = projectData.optString("description", " ");
+			technology = projectData.optString("technology", " ");
+			team = projectData.optString("team", " ");
 			
 			
 			
